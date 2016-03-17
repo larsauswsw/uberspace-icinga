@@ -8,10 +8,10 @@ Zuerst wird der Quelltext auf dem Uberspace herunterladen und anschließend entp
 
     mkdir ~/src
     cd ~/src/
-    wget https://github.com/Icinga/icinga-core/releases/download/v1.11.7/icinga-1.11.7.tar.gz
-    tar xzf icinga-1.11.7.tar.gz
+    wget https://github.com/Icinga/icinga2/archive/v2.4.4.tar.gz
+    tar xzf v2.4.4.tar.gz
 
-    cd icinga-1.11.7/
+    cd icinga2-2.4.4
     ./configure --prefix=/home/$USER/opt/icinga \
     --with-icinga-user=$USER \
     --with-icinga-group=$USER \
